@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_faq_faq_blocks",
+  "info": {
+    "displayName": "FAQBlock",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "faqItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq-item"
+    }
+  }
+}

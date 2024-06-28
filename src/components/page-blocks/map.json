@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_blocks_maps",
+  "info": {
+    "displayName": "IFrame",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

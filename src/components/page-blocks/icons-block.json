@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_blocks_icons_blocks",
+  "info": {
+    "displayName": "IconsBlock",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "iconsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-blocks.icon"
+    }
+  }
+}

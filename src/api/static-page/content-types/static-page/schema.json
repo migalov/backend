@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "static_pages",
+  "info": {
+    "singularName": "static-page",
+    "pluralName": "static-pages",
+    "displayName": "Static Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "page-blocks.html-block",
+        "page-blocks.image",
+        "page-blocks.icons-block",
+        "page-blocks.map"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

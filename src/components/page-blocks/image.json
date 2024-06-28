@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_blocks_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    }
+  }
+}

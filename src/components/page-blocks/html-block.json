@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_blocks_html_blocks",
+  "info": {
+    "displayName": "HTML Block",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "iconsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-blocks.icon"
+    },
+    "bgColor": {
+      "type": "enumeration",
+      "enum": [
+        "yellow",
+        "green"
+      ]
+    }
+  }
+}

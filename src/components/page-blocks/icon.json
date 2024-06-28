@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_blocks_icons",
+  "info": {
+    "displayName": "Icon",
+    "icon": "picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "width": {
+      "type": "integer"
+    }
+  }
+}

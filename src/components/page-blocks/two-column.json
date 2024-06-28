@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_blocks_two_columns",
+  "info": {
+    "displayName": "TwoColumn",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "firstColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "secondColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}
